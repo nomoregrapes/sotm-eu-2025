@@ -71,8 +71,16 @@
 
     // Suppress pretalx widget autoscroll-to-schedule except during the event
     if (currentDate < eventStart || currentDate > eventEnd) {
+      window._scroll = window.scroll; // stash the original browser page-scroll function
       // line credit: duckduckgo search assist, although the first source it referenced did not contain this
       window.scroll = function() {};
+
+      // Here we assume that after 1s, the widget will have attempted the one-time autoscroll;
+      // as a result, we can then restore the original browser scrolling behaviour.
+      setTimeout(function () {
+        window.scroll = window._scroll;
+        delete window._scroll;
+      }, 1000);
     }
   </script>
   <script type="text/javascript" src="https://pretalx.com/sotmeu2025/widgets/schedule.js"></script>
