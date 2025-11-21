@@ -187,4 +187,22 @@
     });
   }
 
+    /**
+     * Session, redirect specific sessions in the Pretalx
+     */
+    (function() {
+        // Get the part of the URL after the #
+        var hash = window.location.hash; // e.g. "#session/9EKBSB/"
+
+        // Regex: #session/<alphanumeric>/
+        var match = hash.match(/^#session\/([A-Za-z0-9]+)\/?$/);
+
+        if (match) {
+            var code = match[1]; // "9EKBSB"
+
+            // Redirect to session.html#9EKBSB
+            window.location.href = "session.html#" + code;
+        }
+    })();
+
 })();
