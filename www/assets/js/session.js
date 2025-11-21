@@ -90,20 +90,29 @@
  */
 
 async function get_session_data(code) {
-    const url = "https://pretalx.com/sotmeu2025/schedule/export/schedule.json";
+    const pretalxURL = "https://pretalx.com/sotmeu2025/schedule/export/schedule.json";
 
     try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error("Failed to load schedule JSON");
-
+        // Load Pretalx JSON
+        const response = await fetch(pretalxURL);
+        if (!response.ok) throw new Error("Failed to load Pretalx schedule");
         const data = await response.json();
 
-        if (!data.schedule || !Array.isArray(data.schedule.conference.days)) {
-            console.error("Unexpected Pretalx JSON format", data);
+        const days =
+            data?.schedule?.conference?.days &&
+            Array.isArray(data.schedule.conference.days)
+                ? data.schedule.conference.days
+                : null;
+
+        if (!days) {
+            console.error("Unexpected Pretalx JSON format (no schedule.conference.days)", data);
             return null;
         }
 
-        for (const day of data.schedule.conference.days) {
+        let foundSession = null;
+
+        // Search through days → rooms → sessions
+        for (const day of days) {
             if (!day.rooms || typeof day.rooms !== "object") continue;
 
             for (const roomName in day.rooms) {
@@ -112,18 +121,33 @@ async function get_session_data(code) {
 
                 for (const session of sessions) {
                     if (session.code === code) {
-                        return session;
+                        foundSession = session;
+                        break;
                     }
                 }
+                if (foundSession) break;
             }
+            if (foundSession) break;
         }
 
-        return null;  // no match found
+        if (!foundSession)
+            return null;
+
+        // Load local session extras
+        const extras = window.session_extras;
+        if (extras[code]) {
+            // Merge extra fields into session
+            Object.assign(foundSession, extras[code]);
+        }
+
+        return foundSession;
+
     } catch (err) {
         console.error("Error loading session data:", err);
         return null;
     }
 }
+
 
 function buildSessionHTML(session) {
     const title = session.title || "Untitled session";
@@ -134,6 +158,23 @@ function buildSessionHTML(session) {
     const end = session.end || "";
     const room = session.room || "";
     const code = session.code;
+
+    // Extra block for post-conference stuff
+    let extraButtons = "";
+    if (session.slides_url) {
+        extraButtons += `
+            <a class="btn btn-outline-secondary ml-1" href="assets/shared/sessions/${session.slides_url}" target="_blank" rel="noopener">
+                <i class="fa fa-file-pdf-o"></i> Slides ${session.slides_type}
+            </a>
+        `;
+    }
+    if (session.youtube_url) {
+        extraButtons += `
+            <a class="btn btn-danger ml-1" href="${session.youtube_url}" target="_blank" rel="noopener">
+                <i class="fa fa-youtube-play"></i> Video
+            </a>
+        `;
+    }
 
     // Speaker block (Pretalx allows many speakers)
     const speakerHTML = speakers.map(sp => `
@@ -171,6 +212,8 @@ function buildSessionHTML(session) {
                     <a class="btn btn-success ml-1" href="/sotmeu2025/talk/${code}/feedback/">
                         <i class="fa fa-comments"></i>
                     </a>
+                    
+                    ${extraButtons} 
                 </div>
             </div>
 
