@@ -126,10 +126,6 @@ window.session_extras = {
         "slides_url": "saturday-1330-Francis.pptx",
         "slides_type": "pptx",
     },
-    "LTLLCB": {
-        "slides_url": "saturday-1330-Mapping_hydropower_schemes.pptx",
-        "slides_type": "pptx",
-    },
     "DDHVTJ": {
         "slides_url": "saturday-1700-A_better_relationship.pdf",
         "slides_type": "pdf",
