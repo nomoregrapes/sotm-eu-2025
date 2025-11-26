@@ -6,7 +6,7 @@ window.session_extras = {
         //"youtube_url": "https://youtube.com/watch?v=123"
     },
     "9EKBSB": {
-        "slides_url": "friday-1130-national-trust.pptx",
+        "slides_url": "friday-1030-national-trust.pptx",
         "slides_type": "pptx",
     },
     "YG9HQC": {
@@ -73,7 +73,7 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     "GTDWYA": {
-        "slides_url": "saturday-1100--Using_vector_tiles.odp",
+        "slides_url": "saturday-1100-Using_vector_tiles.odp",
         "slides_type": "odp",
     },
     "VP8YYB": {
