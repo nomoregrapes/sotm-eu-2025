@@ -159,6 +159,8 @@ function buildSessionHTML(session) {
     const room = session.room || "";
     const code = session.code;
 
+    const pretalxResourceBase = "https://pretalx.com";
+
     // Extra block for post-conference stuff
     let extraButtons = "";
     if (session.slides_url) {
@@ -174,6 +176,22 @@ function buildSessionHTML(session) {
                 <i class="fa fa-youtube-play"></i> Video
             </a>
         `;
+    }
+
+    //If the speaker attached resources in Pretalx.
+    if (Array.isArray(session.attachments)) {
+        session.attachments.forEach(att => {
+            if (!att.url) return;
+
+            const label = "Slides/resource";
+            const fullUrl = pretalxResourceBase + att.url;
+
+            extraButtons += `
+                <a class="btn btn-outline-secondary ml-1" href="${fullUrl}" target="_blank" rel="noopener">
+                    <i class="fa fa-paperclip"></i> ${label}
+                </a>
+            `;
+        });
     }
 
     // Speaker block (Pretalx allows many speakers)
@@ -205,14 +223,7 @@ function buildSessionHTML(session) {
                     </button>
                 </span>
 
-                <div class="buttons d-flex justify-content-end" id="talk-buttons">
-                    <a class="btn btn-outline-primary" href="/sotmeu2025/talk/${code}.ics">
-                        <i class="fa fa-calendar"></i> .ical
-                    </a>
-                    <a class="btn btn-success ml-1" href="/sotmeu2025/talk/${code}/feedback/">
-                        <i class="fa fa-comments"></i>
-                    </a>
-                    
+                <div class="buttons d-flex justify-content-end" id="talk-buttons">                    
                     ${extraButtons} 
                 </div>
             </div>
