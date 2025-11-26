@@ -64,10 +64,6 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     //Saturday: area room
-    "WRUTND": {
-        "slides_url": "saturday-1330--Mapping_Waste_v2.pptx",
-        "slides_type": "pptx",
-    },
     "GTDWYA": {
         "slides_url": "saturday-1100--Using_vector_tiles.odp",
         "slides_type": "odp",
