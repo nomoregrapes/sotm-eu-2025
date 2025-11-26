@@ -59,6 +59,10 @@ window.session_extras = {
         "slides_url": "friday-1400-state-of-germany.pdf",
         "slides_type": "pdf",
     },
+    "UGMYAX": {
+        "slides_url": "friday-1300-State_of_the_Map_Scotland.pdf",
+        "slides_type": "pdf",
+    },
     //Saturday: area room
     "WRUTND": {
         "slides_url": "saturday-1330--Mapping_Waste_v2.pptx",
@@ -129,6 +133,10 @@ window.session_extras = {
     "LTLLCB": {
         "slides_url": "saturday-1330-Mapping_hydropower_schemes.pptx",
         "slides_type": "pptx",
+    },
+    "DDHVTJ": {
+        "slides_url": "saturday-1700-A_better_relationship.pdf",
+        "slides_type": "pdf",
     },
     //others
     "FCKEDZ": {
