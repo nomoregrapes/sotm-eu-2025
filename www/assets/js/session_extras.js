@@ -85,6 +85,14 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     //Saturday: way room
+    "BWRGEZ": {
+        "slides_url": "saturday-1200-complementing_osm_cycling_data.pptx",
+        "slides_type": "pptx",
+    },
+    "AT3XT9": {
+        "slides_url": "saturday-1330-Francis.pptx",
+        "slides_type": "pptx",
+    },
     /*
     "THBEEA": {
         //Lightning Talks 4
@@ -113,14 +121,6 @@ window.session_extras = {
         "slides_url": "saturday-1130-MapYourGrid.pdf",
         "slides_type": "pdf",
         //"supporting_video": "saturday-1130-mapyourgrid-tools.mp4"
-    },
-    "BWRGEZ": {
-        "slides_url": "saturday-1200-complementing_osm_cycling_data.pptx",
-        "slides_type": "pptx",
-    },
-    "AT3XT9": {
-        "slides_url": "saturday-1330-Francis.pptx",
-        "slides_type": "pptx",
     },
     "M9KTYY": {
         "slides_url": "saturday-1600-quality_of_OSM_data_created_by_humanitarian_mappers.pptx",
