@@ -5,6 +5,10 @@ window.session_extras = {
         "slides_type": "pptx",
         //"youtube_url": "https://youtube.com/watch?v=123"
     },
+    "D3PRYU": {
+        "slides_url": "friday-1010-Open_Maps_and_cybersecurity_Today.pptm",
+        "slides_type": "pptm",
+    },
     "9EKBSB": {
         "slides_url": "friday-1030-national-trust.pptx",
         "slides_type": "pptx",
@@ -61,6 +65,10 @@ window.session_extras = {
     },
     "NHNN3Q": {
         "slides_url": "friday-1400-state-of-germany.pdf",
+        "slides_type": "pdf",
+    },
+    "9NPNXT": {
+        "slides_url": "friday-1430-Whats_going_on_in_America.pdf",
         "slides_type": "pdf",
     },
     //Saturday: area room
