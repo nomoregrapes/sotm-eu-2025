@@ -71,6 +71,14 @@ window.session_extras = {
         "slides_url": "friday-1430-Whats_going_on_in_America.pdf",
         "slides_type": "pdf",
     },
+    "MDG338": {
+        "slides_url": "friday-1530-mapswipe_today_and_its_future_in_osm.pdf",
+        "slides_type": "pdf",
+    },
+    "QUDXUS": {
+        "slides_url": "friday-1630-paul_knight.pdf",
+        "slides_type": "pdf",
+    },
     //Saturday: area room
     "XCCRKE": {
         "slides_url": "saturday-930-hiking.pdf",
