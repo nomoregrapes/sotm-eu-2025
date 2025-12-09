@@ -1,0 +1,1822 @@
+{
+  "talks": [
+    {
+      "id": 1368948,
+      "title": {
+        "en": "Registration (& hot drinks) in Kydd Building"
+      },
+      "start": "2025-11-14T09:00:00Z",
+      "end": "2025-11-14T09:45:00Z",
+      "room": 4774
+    },
+    {
+      "code": "WFWGSQ",
+      "id": 1368949,
+      "title": "Welcome",
+      "abstract": "A special welcome to start the conference, and helpful information.",
+      "speakers": [],
+      "track": 6326,
+      "start": "2025-11-14T09:45:00Z",
+      "end": "2025-11-14T10:10:00Z",
+      "room": 4774,
+      "duration": 25,
+      "updated": "2025-11-01T13:22:25.305020+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "D3PRYU",
+      "id": 1368950,
+      "title": "Human elements of trust and data misuse in open maps",
+      "abstract": "Professor Lynne Coventry explores how participatory mapping like OpenStreetMap empowers communities but faces cybersecurity threats, highlighting the need for trust, awareness, and resilient strategies against data manipulation and malicious attacks.",
+      "speakers": [
+        "KJHDN9"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T10:10:00Z",
+      "end": "2025-11-14T10:30:00Z",
+      "room": 4774,
+      "duration": 20,
+      "updated": "2025-11-01T13:22:25.305046+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "9EKBSB",
+      "id": 1368951,
+      "title": "Equal Access at the National Trust",
+      "abstract": "Walking remains a popular form of transport and exercise in Europe (Ramblers, 2020). Despite this, the provision of trail information that meets individual requirements remains inconsistent. This talk presents how the National Trust is using OpenStreetMap relations and working with others to promote a common representation to describe walking trails.",
+      "speakers": [
+        "TCSUHH"
+      ],
+      "track": 5957,
+      "start": "2025-11-14T10:30:00Z",
+      "end": "2025-11-14T11:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305067+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "NA7DJA",
+      "id": 1368953,
+      "title": "News From Europe [panel]",
+      "abstract": "How is OpenStreetMap and it's community doing across Europe? What are the strengths of each local chapter and what is challenging or surprising them? Gregory will ask questions of a few representatives from different countries.",
+      "speakers": [
+        "GTRV9Y"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T11:00:00Z",
+      "end": "2025-11-14T12:00:00Z",
+      "room": 4774,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.305106+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "MRZK7M",
+      "id": 1368952,
+      "title": "Goodbye OSHDB - Welcome ohsomeDB!",
+      "abstract": "In this talk we introduce **ohsomeDB** - the successor of the OpenStreetMap History Database (OSHDB). ohsomeDB is a scalable distributed Postgres database. It\u2019s powered through PostGIS and Citus and a database schema optimized for OSM data analysis.",
+      "speakers": [
+        "E8WPXD"
+      ],
+      "track": 5953,
+      "start": "2025-11-14T11:00:00Z",
+      "end": "2025-11-14T11:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305087+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "Z8GZAQ",
+      "id": 1368954,
+      "title": "OSM Data replication under Quality Constraints with Clearance, OSM Logical History and UnderpassAPI",
+      "abstract": "\"Clearance\" tracks OSM changes and replicates extracts under quality constraints, and its subprojects: OSM Logical History which displays changes at semantic level and UnderpassAPI, which responds to Overpass queries from the partially replicated data.",
+      "speakers": [
+        "VZMGEW"
+      ],
+      "track": 5953,
+      "start": "2025-11-14T11:30:00Z",
+      "end": "2025-11-14T12:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305124+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1368957,
+      "title": {
+        "en": "Lunch"
+      },
+      "start": "2025-11-14T12:00:00Z",
+      "end": "2025-11-14T13:00:00Z",
+      "room": 4774
+    },
+    {
+      "id": 1368956,
+      "title": {
+        "en": "Lunch"
+      },
+      "start": "2025-11-14T12:00:00Z",
+      "end": "2025-11-14T13:00:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1368955,
+      "title": {
+        "en": "Lunch"
+      },
+      "start": "2025-11-14T12:00:00Z",
+      "end": "2025-11-14T13:00:00Z",
+      "room": 4775
+    },
+    {
+      "code": "HEC7PR",
+      "id": 1368959,
+      "title": "Using OpenStreetMap data to create audio only maps",
+      "abstract": "Using [Soundscape](https://scottish-tech-army.github.io/Soundscape-Android/) as an example, how we can use OpenStreetMap data for audio only exploration and navigation.",
+      "speakers": [
+        "KKTMD9"
+      ],
+      "track": 5954,
+      "start": "2025-11-14T13:00:00Z",
+      "end": "2025-11-14T13:30:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305242+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "YG9HQC",
+      "id": 1368958,
+      "title": "What's New With Our Website",
+      "abstract": "It's been another busy year for the development team working on the OpenStreetMap Website. We'll cover some changes you can see, some changes you might have missed, and some behind-the-scenes work laying the foundations for the future.",
+      "speakers": [
+        "77P3N8"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T13:00:00Z",
+      "end": "2025-11-14T13:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305221+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "UGMYAX",
+      "id": 1368960,
+      "title": "State of the Map Scotland",
+      "abstract": "What is the current state of mapping in Scotland, we will start with some stats and counts of where things are in. terms of current statistics and the kind of mapoping that is taking place, some interesting things mapped in Scotland and some interesting stories of things mapped in Scotland.",
+      "speakers": [
+        "ZM8WBJ"
+      ],
+      "track": 5950,
+      "start": "2025-11-14T13:00:00Z",
+      "end": "2025-11-14T13:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305260+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "Z8VSHM",
+      "id": 1368962,
+      "title": "Beyond the Footprint: Automated Roof Shape Classification and Detailed 3D Buildings",
+      "abstract": "We'll demonstrate how Mapbox is advancing its 3D basemap by moving beyond simple building extrusions. This talk will show how we use a Python-based geospatial computer vision tool to classify roof shapes and apply a logic to style building facades, creating more realistic and immersive maps.",
+      "speakers": [
+        "PQRZ7F"
+      ],
+      "track": 5954,
+      "start": "2025-11-14T13:30:00Z",
+      "end": "2025-11-14T14:00:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305296+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "LTLLCB",
+      "id": 1368963,
+      "title": "Mapping hydropower schemes in Scotland",
+      "abstract": "An update how I have been mapping the visible, and not so visible, aspects of hydro-electric power schemes in Scotland. This covers both modern schemes recently constructed, plus older schemes built over the past century. You will also learn which river now flows into the North Sea and Atlantic\u2026",
+      "speakers": [
+        "TPMXPP"
+      ],
+      "track": 5950,
+      "start": "2025-11-14T13:30:00Z",
+      "end": "2025-11-14T14:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305314+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "7RREJS",
+      "id": 1368961,
+      "title": "Servers on Fire: Keeping OpenStreetMap Online",
+      "abstract": "A light-hearted behind-the-scenes look running the OpenStreetMap infrastructure. From fighting bots and scrapers to rescuing failing servers, discover how the Ops Team keeps OSM.org running smoothly.",
+      "speakers": [
+        "3B8SB9"
+      ],
+      "track": 5953,
+      "start": "2025-11-14T13:30:00Z",
+      "end": "2025-11-14T14:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305278+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "FFGNFY",
+      "id": 1368964,
+      "title": "State of Panoramax !",
+      "abstract": "The Panoramax project started almost 3 years ago.\r\nThis session will describe the current status of the project and what we expect for the future, at the code stack level, at the instances level, as well as its governance thru a \"Panoramax Foundation\".",
+      "speakers": [
+        "NUTZMW"
+      ],
+      "track": 5957,
+      "start": "2025-11-14T14:00:00Z",
+      "end": "2025-11-14T14:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305333+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "YPSJ7Y",
+      "id": 1368965,
+      "title": "Future of the OpenStreetMap Foundation [discussion group]",
+      "abstract": "The OpenStreetMap Foundation owns the OpenStreetMap hardware and trademarks.\r\nIt uses money to keep the platform running.\r\n\r\nHowever, the income of the Foundation does not meet its current spending level. In this workshop we ask the attendants as members of the OpenStreetMap community for advice.",
+      "speakers": [
+        "VNDWRP"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T14:00:00Z",
+      "end": "2025-11-14T15:00:00Z",
+      "room": 4776,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.305366+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "NHNN3Q",
+      "id": 1368966,
+      "title": "What's happening in Germany?",
+      "abstract": "The mappers in Germany are busy as ever mapping every trail in the forest, every train signal, and the occasional collapsed bridge. But there is more going on.",
+      "speakers": [
+        "LULDTS"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T14:00:00Z",
+      "end": "2025-11-14T14:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305386+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "ZSA3CN",
+      "id": 1368967,
+      "title": "How did the mapper cross the road?",
+      "abstract": "With two styles for mapping sidewalks, it's difficult to map footways and use the data. This talk dives into several new tools for assessing sidewalk coverage, creating personalized and more detailed walkability isochrones, figuring out where to prioritize a new crossing, and routing based on user-defined \"interesting streets\".",
+      "speakers": [
+        "KFSX7B"
+      ],
+      "track": 5954,
+      "start": "2025-11-14T14:30:00Z",
+      "end": "2025-11-14T15:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305404+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "9NPNXT",
+      "id": 1368968,
+      "title": "What\u2019s going on in America?",
+      "abstract": "OSM can sometimes feel like Europe vs. North America. This talk will discuss the intricacies of OSM in the US, and how and why it differs from OSM in European countries. It was also go over recent US mapping initiatives such as trails stewardship and pedestrian accessibility.",
+      "speakers": [
+        "LXDJVF"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T14:30:00Z",
+      "end": "2025-11-14T15:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305421+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1368971,
+      "title": {
+        "en": "Tea/coffee break"
+      },
+      "start": "2025-11-14T15:00:00Z",
+      "end": "2025-11-14T15:30:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1368970,
+      "title": {
+        "en": "Tea/coffee break"
+      },
+      "start": "2025-11-14T15:00:00Z",
+      "end": "2025-11-14T15:30:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1368969,
+      "title": {
+        "en": "Tea/coffee break"
+      },
+      "start": "2025-11-14T15:00:00Z",
+      "end": "2025-11-14T15:30:00Z",
+      "room": 4774
+    },
+    {
+      "code": "G38NXE",
+      "id": 1369003,
+      "title": "From Coast to Coast: OSM Coastal Landforms Tagging & Mapping Strategies across the Atlantic [panel]",
+      "abstract": "This session examines mapping and tagging of coastal landforms in OpenStreetMap for humanitarian purposes and community resilience building. Using case studies of common topologies in Canada and Europe, we will surface shared challenges and collectively shape solutions, workflows, and documentation to strengthen future practice.",
+      "speakers": [
+        "VAGJ8X"
+      ],
+      "track": 5955,
+      "start": "2025-11-14T15:30:00Z",
+      "end": "2025-11-14T16:30:00Z",
+      "room": 4774,
+      "duration": 60,
+      "updated": "2025-11-10T17:00:25.456247+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "DFE3ZQ",
+      "id": 1368975,
+      "title": "5 Things I Learned Plotting Every House in Brighton & Hove",
+      "abstract": "What are the lessons of an epically stupid quest to get every house in Brighton & Hove mapped? Can community be rekindled? Is enthusiasm dead? Who has the biggest extension in the city?",
+      "speakers": [
+        "UKH3WM"
+      ],
+      "track": 5952,
+      "start": "2025-11-14T15:30:00Z",
+      "end": "2025-11-14T16:00:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-10T17:00:33.582517+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "MDG338",
+      "id": 1368974,
+      "title": "MapSwipe Today and its Future in OSM",
+      "abstract": "MapSwipe is an application that enables crowdsourced data collection for OpenStreetMap and helps prioritize mapping efforts by identifying areas needing updates. This talk will explore future possibilities for expanding its role, including potentially allowing direct edits to OSM and strengthening ties with the OSM community for more seamless contributions.",
+      "speakers": [
+        "JHBCPL",
+        "E8WPXD"
+      ],
+      "track": 5956,
+      "start": "2025-11-14T15:30:00Z",
+      "end": "2025-11-14T16:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305550+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "UJX7WF",
+      "id": 1368976,
+      "title": "Mapping Damage in a Humanitarian Context",
+      "abstract": "Mapping damage on OSM is critical to support the work of humanitarian organizations. Nonetheless, as recent [discussions](https://community.openstreetmap.org/t/how-to-map-damage-on-openstreetmap/129704) demonstrate, there is not yet a consensus on the best approach. Let's continue this conversation!",
+      "speakers": [
+        "F3LT7E"
+      ],
+      "track": 5956,
+      "start": "2025-11-14T16:00:00Z",
+      "end": "2025-11-14T16:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305584+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "Y8TMQT",
+      "id": 1368978,
+      "title": "It's traditional - Boundaries and Places in the UK [discussion group]",
+      "abstract": "With the Nominatim geocoder we've been struggling for years to make sense of boundary and place data in the UK. In this session I want to start a discussion with the UK mappers about the current state of the data, and how it can be improved.",
+      "speakers": [
+        "RD7F9S"
+      ],
+      "track": 5955,
+      "start": "2025-11-14T16:00:00Z",
+      "end": "2025-11-14T17:00:00Z",
+      "room": 4776,
+      "duration": 60,
+      "updated": "2025-11-10T17:00:34.642864+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "QUDXUS",
+      "id": 1368977,
+      "title": "Building Data Readiness using OpenStreetMap as part of a Nigerian Red Cross/ British Red Cross Programme",
+      "abstract": "Data Readiness is the ability to use quality and timely information in humanitarian operations and programmes. This presentation will introduce the collaborative 5-year journey of the British and Nigerian Red Cross, where OSM was used to build foundational data capabilities to enhance effective humanitarian decision-making and community engagement.",
+      "speakers": [
+        "3PTWQJ"
+      ],
+      "track": 5956,
+      "start": "2025-11-14T16:30:00Z",
+      "end": "2025-11-14T17:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305601+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "XHM78K",
+      "id": 1368979,
+      "title": "From Trails to Cycle Routes: Making OpenStreetMap Work for Outdoor Enthusiasts",
+      "abstract": "OpenStreetMap is a powerful foundation for outdoor navigation. Using examples from Mapy.com, specialized in hiking and cycling maps. This session explores outdoor data quality, tagging practices, and gaps across Europe. Learn how OSM supports outdoor enthusiasts today, and where the community can contribute to improve tomorrow\u2019s adventures.",
+      "speakers": [
+        "LFHKY8"
+      ],
+      "track": 5954,
+      "start": "2025-11-14T16:30:00Z",
+      "end": "2025-11-14T17:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305636+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "EZ8RJ3",
+      "id": 1368980,
+      "title": "fAIr: Community AI-Assisted Mapping for Humanitarian Response",
+      "abstract": "fAIr is an open AI-assisted mapping service by HOT, supporting faster and more accurate humanitarian mapping using computer vision. This talk covers 2024\u20132025 progress, UI/UX improvements and the role of OSM in training and output. We\u2019ll also discuss challenges, and future plans for contributing to OSM.",
+      "speakers": [
+        "3FHA7Q",
+        "MYHPTV",
+        "8LDFLC"
+      ],
+      "track": 5956,
+      "start": "2025-11-14T17:00:00Z",
+      "end": "2025-11-14T17:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305654+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "SDH7HG",
+      "id": 1368973,
+      "title": "Lightning Talks 1",
+      "abstract": "5 slots for quick 5-minute talks. Sign-up was during the conference, making it great for fresh ideas or project updates.",
+      "speakers": [],
+      "track": 6326,
+      "start": "2025-11-14T17:00:00Z",
+      "end": "2025-11-14T17:30:00Z",
+      "room": 4774,
+      "duration": 20,
+      "updated": "2025-11-10T17:00:29.855033+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "KCNFGV",
+      "id": 1368981,
+      "title": "Shortbread Steering Committee meeting",
+      "abstract": "This room and time has been reserved for the shortbread steering committee to meet as several of them will be attending the conference. They may be open for others from the conference to be present.",
+      "speakers": [
+        "CNXFHC"
+      ],
+      "track": 6326,
+      "start": "2025-11-14T17:30:00Z",
+      "end": "2025-11-14T18:30:00Z",
+      "room": 4776,
+      "duration": 20,
+      "updated": "2025-11-01T13:22:25.305671+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": true
+    },
+    {
+      "code": "VDQAVX",
+      "id": 1368982,
+      "title": "OSM UK AGM",
+      "abstract": "The annual general meeting of OpenStreetMap UK CIC will be taking place. https://osmuk.org/\r\nPlease note: This is for OSM UK members but the board may allow others to attend as 'guests'.",
+      "speakers": [
+        "GCQWYA"
+      ],
+      "track": 6326,
+      "start": "2025-11-14T17:30:00Z",
+      "end": "2025-11-14T18:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305688+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1368984,
+      "title": {
+        "en": "End of Friday sessions"
+      },
+      "start": "2025-11-14T18:30:00Z",
+      "end": "2025-11-14T18:35:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1368985,
+      "title": {
+        "en": "End of Friday sessions"
+      },
+      "start": "2025-11-14T18:30:00Z",
+      "end": "2025-11-14T18:35:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1368983,
+      "title": {
+        "en": "End of Friday sessions"
+      },
+      "start": "2025-11-14T18:30:00Z",
+      "end": "2025-11-14T18:35:00Z",
+      "room": 4774
+    },
+    {
+      "id": 1368988,
+      "title": {
+        "en": "Saturday begins (Node)"
+      },
+      "start": "2025-11-15T09:20:00Z",
+      "end": "2025-11-15T09:30:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1368987,
+      "title": {
+        "en": "Saturday begins (Way)"
+      },
+      "start": "2025-11-15T09:20:00Z",
+      "end": "2025-11-15T09:30:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1368986,
+      "title": {
+        "en": "Saturday begins (Area)"
+      },
+      "start": "2025-11-15T09:20:00Z",
+      "end": "2025-11-15T09:30:00Z",
+      "room": 4774
+    },
+    {
+      "code": "QF3HYY",
+      "id": 1368989,
+      "title": "From the Himalayas to the Highlands: Youth-Led Mapping for Climate Resilience",
+      "abstract": "This talk unveils a youth-led, women-powered mapping movement from Nepal, where WhatsApp becomes a classroom and OpenStreetMap a canvas. Led by women in geospatial, we chart climate resilience through innovation and storytelling bridging continents with cartography that empowers, educates and proves mapping can be scientific and soulful.",
+      "speakers": [
+        "3UNRQL"
+      ],
+      "track": 5952,
+      "start": "2025-11-15T09:30:00Z",
+      "end": "2025-11-15T10:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305841+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "XCCRKE",
+      "id": 1368990,
+      "title": "Many paths lead to the summit - Complex hiking and cycling routes in OpenStreetMap",
+      "abstract": "This talk looks into the complexity of hiking and cycling routes and the new functions of waymarkedtrails.org to show complex route relations.  It gives you (slightly opinionated) hints on what to tag and how waymarkedtrails.org can help when creating and maintaining route relations in OpenStreetMap.",
+      "speakers": [
+        "RD7F9S"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T09:30:00Z",
+      "end": "2025-11-15T10:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305860+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "73CHAQ",
+      "id": 1368991,
+      "title": "Visualization and analysis of OSM's public transport stop data with PTSA",
+      "abstract": "Public transport mapping is a delicate issue in OSM. PTSA visualizes all data related to public transport stops, provides hints on tagging mistakes, and automatically groups platforms, poles and stop positions to stops. See https://gauss.whz.de/ptsa.",
+      "speakers": [
+        "S73JGV",
+        "WXFY7M"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T09:30:00Z",
+      "end": "2025-11-15T10:00:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305892+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "7ARQRE",
+      "id": 1368994,
+      "title": "AI-Assisted Pedestrian Infrastructure Mapping",
+      "abstract": "Join us for an in-depth look at how Machine Learning (ML) models can be used to detect missing footway data in OSM.",
+      "speakers": [
+        "BZDSBG",
+        "LSQ9YL"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T10:00:00Z",
+      "end": "2025-11-15T10:30:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305944+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "DT93HT",
+      "id": 1368992,
+      "title": "\"Survey Me\" - Using external data comparisons to flag issues in OSM",
+      "abstract": "A look at what goes on behind the scenes to power my UK \"[Survey Me](https://osm.mathmos.net/survey/)\" tool, with advice for anyone looking to run similar tools elsewhere. Sources the tool compares with OSM include [AllThePlaces](https://alltheplaces.xyz/) and datasets for schools, healthcare, defibrillators and postboxes.",
+      "speakers": [
+        "TLMZF3"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T10:00:00Z",
+      "end": "2025-11-15T10:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.305910+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "89FTLK",
+      "id": 1368993,
+      "title": "Lightning Talks 2",
+      "abstract": "5 slots for quick 5-minute talks. Sign-up was during the conference, making it great for fresh ideas or project updates.",
+      "speakers": [],
+      "track": 6326,
+      "start": "2025-11-15T10:00:00Z",
+      "end": "2025-11-15T10:30:00Z",
+      "room": 4775,
+      "duration": 20,
+      "updated": "2025-11-01T13:22:25.305927+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1368997,
+      "title": {
+        "en": "Tea/Coffee Break"
+      },
+      "start": "2025-11-15T10:30:00Z",
+      "end": "2025-11-15T11:00:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1368995,
+      "title": {
+        "en": "Tea/Coffee Break"
+      },
+      "start": "2025-11-15T10:30:00Z",
+      "end": "2025-11-15T11:00:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1368996,
+      "title": {
+        "en": "Tea/Coffee Break"
+      },
+      "start": "2025-11-15T10:30:00Z",
+      "end": "2025-11-15T11:00:00Z",
+      "room": 4774
+    },
+    {
+      "code": "BWHZS7",
+      "id": 1368998,
+      "title": "An academic insight on the functioning of fAIr",
+      "abstract": "[fAIr](https://fair.hotosm.org/) is an open AI-assisted mapping tool developed by HOT, the Humanitarian OpenStreetMap Team. Recently a new machine learning algorithm was added and OSM users can experiment with mapping buildings around the globe. How well does fAIr work and has the new addition improved this?",
+      "speakers": [
+        "ZHPUPT",
+        "E8WPXD",
+        "ZAEHXV"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T11:00:00Z",
+      "end": "2025-11-15T11:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306031+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "KJVF9Y",
+      "id": 1369000,
+      "title": "At the intersection of python and inclusive urbanism - does this school have the worst crossing in Edinburgh?",
+      "abstract": "We take an intuition about a local school crossing and, using OSM, find data to make this feeling precise through a careful analysis, and use this analysis to advocate for local change. We hope this serves as a blueprint for other people to do the similar work in their communities.",
+      "speakers": [
+        "ZFV3XL",
+        "LLFYTY"
+      ],
+      "track": 5957,
+      "start": "2025-11-15T11:00:00Z",
+      "end": "2025-11-15T11:30:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306066+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "GTDWYA",
+      "id": 1368999,
+      "title": "Using the new vector tiles",
+      "abstract": "The new OpenStreetMap vector tile service powers the Shortbread maps on the home page, but you can use it too. Learn how to make your own website or style using these tiles, and better ways to customize your style.",
+      "speakers": [
+        "CNXFHC"
+      ],
+      "track": 5953,
+      "start": "2025-11-15T11:00:00Z",
+      "end": "2025-11-15T11:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306049+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "8SFUEX",
+      "id": 1369002,
+      "title": "Kreuzungen - Where open geospatial data and cycling intersect.",
+      "abstract": "I rode my bike from London to Berlin, and had a burning question that I wanted to answer. How many rivers did I cross? With a little bit of geospatial knowledge and some great open data, I found my answer. This is the story of why and how!",
+      "speakers": [
+        "FVVU38"
+      ],
+      "track": 5953,
+      "start": "2025-11-15T11:30:00Z",
+      "end": "2025-11-15T12:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306101+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "N8QKP7",
+      "id": 1368972,
+      "title": "Maps, maps and Diversity, Equity and Inclusion [panel]",
+      "abstract": "We know mapping interweaves stories of power and gender, that what we see on a map is not neutral, it is a reflection of those who have made, curated, and maintained that map. Let's unpack.",
+      "speakers": [
+        "LLFYTY"
+      ],
+      "track": 5957,
+      "start": "2025-11-15T11:30:00Z",
+      "end": "2025-11-15T12:30:00Z",
+      "room": 4774,
+      "duration": 60,
+      "updated": "2025-11-10T16:59:23.183839+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "VC7W9C",
+      "id": 1369001,
+      "title": "Enabling power grid mapping with appropriate tools [workshop]",
+      "abstract": "OpenStreetMap is now well known for providing reliable power grids data worldwide. It has been achieved with yet more elaborated tooling and strategies to survey the appropriate data on ground. MapYourGrid initiative proposes to train and try on some simple practices to make grids more detailed on the map.",
+      "speakers": [
+        "YSNJ3U"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T11:30:00Z",
+      "end": "2025-11-15T12:30:00Z",
+      "room": 4776,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.306084+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "BWRGEZ",
+      "id": 1369004,
+      "title": "Complementing OSM Cycling Data through Official Datasets",
+      "abstract": "We analysed 30 official cycling infrastructure datasets across the EU, standardised them, and compared them with OSM data. Missing segments were extracted automatically and then saved as geospatial files per area of analysis. These files will be shared with the community. The work is ongoing, more datasets to be added.",
+      "speakers": [
+        "WZW9TB"
+      ],
+      "track": 5950,
+      "start": "2025-11-15T12:00:00Z",
+      "end": "2025-11-15T12:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306136+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1369006,
+      "title": {
+        "en": "Lunch"
+      },
+      "start": "2025-11-15T12:30:00Z",
+      "end": "2025-11-15T13:15:00Z",
+      "room": 4774
+    },
+    {
+      "id": 1369005,
+      "title": {
+        "en": "Lunch"
+      },
+      "start": "2025-11-15T12:30:00Z",
+      "end": "2025-11-15T13:30:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1369007,
+      "title": {
+        "en": "Lunch"
+      },
+      "start": "2025-11-15T12:30:00Z",
+      "end": "2025-11-15T13:30:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1369008,
+      "title": {
+        "en": "Group photo"
+      },
+      "start": "2025-11-15T13:15:00Z",
+      "end": "2025-11-15T13:30:00Z",
+      "room": 4774
+    },
+    {
+      "code": "WRUTND",
+      "id": 1369011,
+      "title": "Mapping Waste the Open Way: Building OpenWasteMap",
+      "abstract": "OpenWasteMap (https://openwastemap.uk) is a civic project mapping Household Waste Recycling Centres across the UK using OpenStreetMap. This talk explores how we built a tool from fragmented council data, using open mapping infrastructure and collaborative standards to make waste disposal data more accessible, consistent, and useful to the public.",
+      "speakers": [
+        "JQEU97"
+      ],
+      "track": 5957,
+      "start": "2025-11-15T13:30:00Z",
+      "end": "2025-11-15T14:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306274+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "QFFEAW",
+      "id": 1369010,
+      "title": "Make your own base map with MapLibre and Planetiler [workshop]",
+      "abstract": "In this workshop we will generate base map tiles from OSM data using Planetiler, set up Martin tile server, set up nginx to serve our sample web site that will use MapLibre GL JS to show the map.",
+      "speakers": [
+        "8ZHUKC"
+      ],
+      "track": 5954,
+      "start": "2025-11-15T13:30:00Z",
+      "end": "2025-11-15T14:30:00Z",
+      "room": 4776,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.306256+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "AT3XT9",
+      "id": 1369009,
+      "title": "Transparency and Trust  in Collaborative Mapping: Concerns and Dilemmas in AI-Generated Road Integration within OpenStreetMap",
+      "abstract": "AI content in OSM has surged over the past decade, prompting mixed reactions from contributors. We analyzed community discussions to understand emotional concerns and the shifting role of  mappers. We then explored whether machine-generated roads can be reliably identified in OSM after they\u2019ve been integrated into the database.",
+      "speakers": [
+        "GH79VL"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T13:30:00Z",
+      "end": "2025-11-15T14:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306238+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "MAGQDL",
+      "id": 1369012,
+      "title": "Where are we at with MapTCHA?",
+      "abstract": "With MapTCHA we explore if the validation of computationally generated predictions of map features could serve as an image based CAPTCHA to map new OSM objects. Following an earlier proof-of-concept at FOSDEM 2025, here we provide a development update.",
+      "speakers": [
+        "ZHPUPT",
+        "VVAZKB",
+        "CET8J9",
+        "Q3YNL8"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T14:00:00Z",
+      "end": "2025-11-15T14:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306292+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "FCKEDZ",
+      "id": 1369013,
+      "title": "Disaster data: OSM POI data with stable IDs for emergency planning",
+      "abstract": "How we filter, merge, stabilize & improve OSM & official data at the Belgian National Crisis Centre as part of the common operational picture of police, health workers, fire brigade during times of crisis",
+      "speakers": [
+        "GT9LTN"
+      ],
+      "track": 5954,
+      "start": "2025-11-15T14:00:00Z",
+      "end": "2025-11-15T14:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306310+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "ZXSDBQ",
+      "id": 1369014,
+      "title": "Missing Maps Panel",
+      "abstract": "Several Missing Maps members will be attending the SotM conference, including M\u00e9decins Sans Fronti\u00e8res, British Red Cross, HeiGIT and Humanitarian OpenStreetMap Team. We hope to use this time to open the panel and floor to questions about the projects and challenges of OSM within Humanitarian organisations.",
+      "speakers": [
+        "F3LT7E"
+      ],
+      "track": 5956,
+      "start": "2025-11-15T14:30:00Z",
+      "end": "2025-11-15T15:30:00Z",
+      "room": 4774,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.306327+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "ECXGL8",
+      "id": 1369016,
+      "title": "Minutely vector tiles deep dive",
+      "abstract": "The OSMF's new vector tile service updates every minute. This talk takes a deep dive into how we accomplish this, focusing on the software behind the scenes.",
+      "speakers": [
+        "CNXFHC"
+      ],
+      "track": 5953,
+      "start": "2025-11-15T14:30:00Z",
+      "end": "2025-11-15T15:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306361+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "FXSEFX",
+      "id": 1369015,
+      "title": "What's next in accessibility tagging? [workshop]",
+      "abstract": "Let's deep-dive into accessibility-related tagging schemes \u2013 featuring a short demo of [a11yScore](https://beta.a11yscore.org/)'s new beta release.",
+      "speakers": [
+        "KJGLVR",
+        "RLJ8BL"
+      ],
+      "track": 5955,
+      "start": "2025-11-15T14:30:00Z",
+      "end": "2025-11-15T15:30:00Z",
+      "room": 4776,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.306344+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "KLLYLY",
+      "id": 1369017,
+      "title": "Lightning Talks 3",
+      "abstract": "5 slots for quick 5-minute talks. Sign-up was during the conference, making it great for fresh ideas or project updates.",
+      "speakers": [],
+      "track": 6326,
+      "start": "2025-11-15T15:00:00Z",
+      "end": "2025-11-15T15:30:00Z",
+      "room": 4775,
+      "duration": 20,
+      "updated": "2025-11-01T13:22:25.306378+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1369018,
+      "title": {
+        "en": "Tea/Coffee Break"
+      },
+      "start": "2025-11-15T15:30:00Z",
+      "end": "2025-11-15T16:00:00Z",
+      "room": 4774
+    },
+    {
+      "id": 1369020,
+      "title": {
+        "en": "Tea/Coffee Break"
+      },
+      "start": "2025-11-15T15:30:00Z",
+      "end": "2025-11-15T16:00:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1369019,
+      "title": {
+        "en": "Tea/Coffee Break"
+      },
+      "start": "2025-11-15T15:30:00Z",
+      "end": "2025-11-15T16:00:00Z",
+      "room": 4775
+    },
+    {
+      "code": "M9KTYY",
+      "id": 1369023,
+      "title": "Quality of OSM data created by humanitarian mappers [discussion group]",
+      "abstract": "Open discussion about quality of OSM data created over HOT TM (Humanitarian OpenStreetMap Team Tasking Manager) and during Missing Maps mapathons.",
+      "speakers": [
+        "GLQV3T"
+      ],
+      "track": 5956,
+      "start": "2025-11-15T16:00:00Z",
+      "end": "2025-11-15T17:00:00Z",
+      "room": 4776,
+      "duration": 60,
+      "updated": "2025-11-01T13:22:25.306500+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "THBEEA",
+      "id": 1369022,
+      "title": "Lightning Talks 4",
+      "abstract": "5 slots for quick 5-minute talks. Sign-up was during the conference, making it great for fresh ideas or project updates.",
+      "speakers": [],
+      "track": 6326,
+      "start": "2025-11-15T16:00:00Z",
+      "end": "2025-11-15T16:30:00Z",
+      "room": 4775,
+      "duration": 20,
+      "updated": "2025-11-01T13:22:25.306483+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "VP8YYB",
+      "id": 1369021,
+      "title": "Everything Everywhere All at Once",
+      "abstract": "The OpenStreetMap community has assembled an enourmous database of our world. There are lots of more or less specialized maps out there, each showing *some* of the data. But there is no map that shows *all* of the data. How can we discover what is not shown by any map?",
+      "speakers": [
+        "LULDTS"
+      ],
+      "track": 5954,
+      "start": "2025-11-15T16:00:00Z",
+      "end": "2025-11-15T16:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306464+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "P33XWD",
+      "id": 1369025,
+      "title": "Overpass Turbo goes PostGIS",
+      "abstract": "This talks presents the \"Postpass\" service, a database that serves OSM data for public querying much like Overpass, but uses PostGIS under the hood. With a few extra characters added to your query, you can have the power of PostGIS at your fingertips from within Overpass Turbo.",
+      "speakers": [
+        "9GGAN8"
+      ],
+      "track": 5953,
+      "start": "2025-11-15T16:30:00Z",
+      "end": "2025-11-15T17:00:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306535+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "NH3FYD",
+      "id": 1369024,
+      "title": "Schrodinger's Data in OpenStreetMap",
+      "abstract": "An exploration of how can we derive data for objects which are not mapped, or tagged explicitly, from OpenStreet.",
+      "speakers": [
+        "97DT7J"
+      ],
+      "track": 5954,
+      "start": "2025-11-15T16:30:00Z",
+      "end": "2025-11-15T17:00:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306517+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "DGZFXR",
+      "id": 1369028,
+      "title": "Working with OSM Notes and getting OSM Notes working",
+      "abstract": "A talk / discussion about \"Notes\". Do you ever use this OpenStreetMap feature? More people should! (mappers and newcomers), but we see some problems. Sometimes the remedy may be to just to think about them differently. Let's learn to love Notes!",
+      "speakers": [
+        "9JGKZV"
+      ],
+      "track": 5951,
+      "start": "2025-11-15T17:00:00Z",
+      "end": "2025-11-15T17:30:00Z",
+      "room": 4775,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306588+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "DDHVTJ",
+      "id": 1369027,
+      "title": "A better relationship between the mapping community and data consumers",
+      "abstract": "The synergy between mapping and the use of data lies at the heart of OpenStreetMap but relations have not always been as good as they ought to be. This talk examines how communication between mappers and data consumers can be improved.",
+      "speakers": [
+        "VWQAZR"
+      ],
+      "track": 5952,
+      "start": "2025-11-15T17:00:00Z",
+      "end": "2025-11-15T17:30:00Z",
+      "room": 4776,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306571+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "code": "SPJQNB",
+      "id": 1369026,
+      "title": "Overpass API",
+      "abstract": "The Overpass API allows for queries for interesting or special data of the OpenStreetMap data.\r\n\r\nRecent issues and their likelihood to be implemented are presented: compliance with data redactions, fair quotas, and resilience to disk failures.\r\n\r\nBring in your questions about Overpass API and how to query OpenStreetMap data.",
+      "speakers": [
+        "VNDWRP"
+      ],
+      "track": 5953,
+      "start": "2025-11-15T17:00:00Z",
+      "end": "2025-11-15T17:30:00Z",
+      "room": 4774,
+      "duration": 30,
+      "updated": "2025-11-01T13:22:25.306553+00:00",
+      "state": null,
+      "content_locale": "en",
+      "do_not_record": false
+    },
+    {
+      "id": 1369030,
+      "title": {
+        "en": "No more sessions. Guides available for walking to social event."
+      },
+      "start": "2025-11-15T17:30:00Z",
+      "end": "2025-11-15T18:00:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1369031,
+      "title": {
+        "en": "No more sessions. Guides available for walking to social event."
+      },
+      "start": "2025-11-15T17:30:00Z",
+      "end": "2025-11-15T18:00:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1369029,
+      "title": {
+        "en": "Sessions end. Walking to Verdant Works takes 10 mins."
+      },
+      "start": "2025-11-15T17:30:00Z",
+      "end": "2025-11-15T18:00:00Z",
+      "room": 4774
+    },
+    {
+      "id": 1369034,
+      "title": {
+        "en": "Social event at Verdant Works. Food, drinks, and full museum access are included in all tickets.  Walking from Abertay University takes 10 minutes."
+      },
+      "start": "2025-11-15T18:00:00Z",
+      "end": "2025-11-15T21:00:00Z",
+      "room": 4776
+    },
+    {
+      "id": 1369033,
+      "title": {
+        "en": "Social event at Verdant Works. Food, drinks, and full museum access are included in all tickets.  Walking from Abertay University takes 10 minutes."
+      },
+      "start": "2025-11-15T18:00:00Z",
+      "end": "2025-11-15T21:00:00Z",
+      "room": 4775
+    },
+    {
+      "id": 1369032,
+      "title": {
+        "en": "Social event at Verdant Works. Food, drinks, and full museum access are included in all tickets.  Walking from Abertay University takes 10 minutes."
+      },
+      "start": "2025-11-15T18:00:00Z",
+      "end": "2025-11-15T21:00:00Z",
+      "room": 4774
+    }
+  ],
+  "version": "0.5",
+  "schedule_id": 11073,
+  "timezone": "Europe/London",
+  "event_start": "2025-11-14",
+  "event_end": "2025-11-15",
+  "tracks": [
+    {
+      "id": 5952,
+      "name": {
+        "en": "Community and Vision"
+      },
+      "description": {
+        "en": "This track focuses on the ways we organise, collaborate, support each other, and think about where we\u2019re headed."
+      },
+      "color": "#f0c571"
+    },
+    {
+      "id": 5953,
+      "name": {
+        "en": "Software and Engineering"
+      },
+      "description": {
+        "en": "technical subjects, the systems and code that power to OpenStreetMap"
+      },
+      "color": "#59a89c"
+    },
+    {
+      "id": 5954,
+      "name": {
+        "en": "Cartography & Outputs"
+      },
+      "description": {
+        "en": "How OpenStreetMap data is styled and visualised, and other ways it\u2019s put to use like navigation applications"
+      },
+      "color": "#0b81a2"
+    },
+    {
+      "id": 5955,
+      "name": {
+        "en": "Mapping & Collection"
+      },
+      "description": {
+        "en": "Topics include surveying, tagging, editing, and data collection \u2014 whether by hand, in teams, or with automated tools."
+      },
+      "color": "#e25759"
+    },
+    {
+      "id": 5956,
+      "name": {
+        "en": "Humanitarian"
+      },
+      "description": {
+        "en": "OpenStreetMap being used or improved in disaster response and by humanitarian agencies."
+      },
+      "color": "#7e4794"
+    },
+    {
+      "id": 5957,
+      "name": {
+        "en": "Not just OSM"
+      },
+      "description": {
+        "en": "Where OpenStreetMap plays a role but isn\u2019t the whole story of a tool or project."
+      },
+      "color": "#9d2c00"
+    },
+    {
+      "id": 6326,
+      "name": {
+        "en": "Special sessions"
+      },
+      "description": {},
+      "color": "#262727"
+    },
+    {
+      "id": 5950,
+      "name": {
+        "en": "Map Progress"
+      },
+      "description": {
+        "en": "Reports on increasing or improving the OpenStreetMap database from the view of individuals, groups, or someone looking at the changes"
+      },
+      "color": "#36b700"
+    },
+    {
+      "id": 5951,
+      "name": {
+        "en": "OSM Basics"
+      },
+      "description": {
+        "en": "Explain core concepts of OpenStreetMap in a clear and accessible way."
+      },
+      "color": "#c8c8c8"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 4774,
+      "name": {
+        "en": "Area"
+      },
+      "description": {
+        "en": "Lecture room 1516"
+      }
+    },
+    {
+      "id": 4775,
+      "name": {
+        "en": "Way"
+      },
+      "description": {
+        "en": "Classroom 1001"
+      }
+    },
+    {
+      "id": 4776,
+      "name": {
+        "en": "Node"
+      },
+      "description": {
+        "en": "Classroom 1004"
+      }
+    }
+  ],
+  "speakers": [
+    {
+      "code": "S73JGV",
+      "name": "Jens Flemming",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "WXFY7M",
+      "name": "Marcus Wittig",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "3B8SB9",
+      "name": "Grant Slater",
+      "avatar": "assets/vendor/pretalx/media/avatars/3B8SB9_2MM04a1.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/3B8SB9_2MM04a1_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/3B8SB9_2MM04a1_thumbnail_tiny.webp"
+    },
+    {
+      "code": "E8WPXD",
+      "name": "Benjamin Herfort",
+      "avatar": "assets/vendor/pretalx/media/avatars/E8WPXD_goLPTHQ.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/E8WPXD_goLPTHQ_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/E8WPXD_goLPTHQ_thumbnail_tiny.webp"
+    },
+    {
+      "code": "97DT7J",
+      "name": "Jerry Clough",
+      "avatar": "assets/vendor/pretalx/media/avatars/97DT7J_s0rX3JM.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/97DT7J_s0rX3JM_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/97DT7J_s0rX3JM_thumbnail_tiny.webp"
+    },
+    {
+      "code": "Q3YNL8",
+      "name": "Stuart lynm",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "VWQAZR",
+      "name": "Andrew Hain",
+      "avatar": "assets/vendor/pretalx/media/avatars/VWQAZR_kSLKHE6.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/VWQAZR_kSLKHE6_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/VWQAZR_kSLKHE6_thumbnail_tiny.webp"
+    },
+    {
+      "code": "UKH3WM",
+      "name": "Jez Nicholson",
+      "avatar": "assets/vendor/pretalx/media/avatars/UKH3WM_R4XX3Lc.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/UKH3WM_R4XX3Lc_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/UKH3WM_R4XX3Lc_thumbnail_tiny.webp"
+    },
+    {
+      "code": "GLQV3T",
+      "name": "Patrik Brigant",
+      "avatar": "assets/vendor/pretalx/media/avatars/GLQV3T_BqxeMGr.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/GLQV3T_BqxeMGr_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/GLQV3T_BqxeMGr_thumbnail_tiny.webp"
+    },
+    {
+      "code": "8ZHUKC",
+      "name": "Bart Louwers",
+      "avatar": "assets/vendor/pretalx/media/avatars/8ZHUKC_b7109CZ.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/8ZHUKC_b7109CZ_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/8ZHUKC_b7109CZ_thumbnail_tiny.webp"
+    },
+    {
+      "code": "PQRZ7F",
+      "name": "Topi Tjukanov",
+      "avatar": "assets/vendor/pretalx/media/avatars/PQRZ7F_XJ7alh5.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/PQRZ7F_XJ7alh5_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/PQRZ7F_XJ7alh5_thumbnail_tiny.webp"
+    },
+    {
+      "code": "LFHKY8",
+      "name": "Jakub Zmrzlik",
+      "avatar": "assets/vendor/pretalx/media/avatars/LFHKY8_BAgLnKE.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/LFHKY8_BAgLnKE_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/LFHKY8_BAgLnKE_thumbnail_tiny.webp"
+    },
+    {
+      "code": "LULDTS",
+      "name": "Jochen Topf",
+      "avatar": "assets/vendor/pretalx/media/avatars/LULDTS_RLcpIEI.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/LULDTS_RLcpIEI_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/LULDTS_RLcpIEI_thumbnail_tiny.webp"
+    },
+    {
+      "code": "GCQWYA",
+      "name": "OSM UK Board",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "TPMXPP",
+      "name": "Donald Noble",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "77P3N8",
+      "name": "Andy Allan",
+      "avatar": "assets/vendor/pretalx/media/avatars/77P3N8_LNj9CqF.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/77P3N8_LNj9CqF_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/77P3N8_LNj9CqF_thumbnail_tiny.webp"
+    },
+    {
+      "code": "WZW9TB",
+      "name": "Christos Konstantinou",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "GT9LTN",
+      "name": "Joost Schouppe",
+      "avatar": "assets/vendor/pretalx/media/avatars/GT9LTN_Lrf3fiG.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/GT9LTN_Lrf3fiG_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/GT9LTN_Lrf3fiG_thumbnail_tiny.webp"
+    },
+    {
+      "code": "KFSX7B",
+      "name": "Dustin Carlino",
+      "avatar": "assets/vendor/pretalx/media/avatars/KFSX7B_zMIalJx.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/KFSX7B_zMIalJx_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/KFSX7B_zMIalJx_thumbnail_tiny.webp"
+    },
+    {
+      "code": "KKTMD9",
+      "name": "Dave Craig",
+      "avatar": "assets/vendor/pretalx/media/avatars/KKTMD9_CJCJ2Y4.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/KKTMD9_CJCJ2Y4_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/KKTMD9_CJCJ2Y4_thumbnail_tiny.webp"
+    },
+    {
+      "code": "BZDSBG",
+      "name": "Said Turksever",
+      "avatar": "assets/vendor/pretalx/media/avatars/BZDSBG_3PtOvVx.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/BZDSBG_3PtOvVx_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/BZDSBG_3PtOvVx_thumbnail_tiny.webp"
+    },
+    {
+      "code": "3PTWQJ",
+      "name": "Paul Knight",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "CNXFHC",
+      "name": "Paul Norman",
+      "avatar": "assets/vendor/pretalx/media/avatars/CNXFHC_4mEdoJT.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/CNXFHC_4mEdoJT_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/CNXFHC_4mEdoJT_thumbnail_tiny.webp"
+    },
+    {
+      "code": "NUTZMW",
+      "name": "Christian Quest",
+      "avatar": "assets/vendor/pretalx/media/avatars/NUTZMW_W8Zjv0R.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/NUTZMW_W8Zjv0R_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/NUTZMW_W8Zjv0R_thumbnail_tiny.webp"
+    },
+    {
+      "code": "GH79VL",
+      "name": "Francis Andorful",
+      "avatar": "assets/vendor/pretalx/media/avatars/GH79VL_t1yDZ3T.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/GH79VL_t1yDZ3T_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/GH79VL_t1yDZ3T_thumbnail_tiny.webp"
+    },
+    {
+      "code": "RD7F9S",
+      "name": "Sarah Hoffmann",
+      "avatar": "assets/vendor/pretalx/media/avatars/RD7F9S_LdZDNQg.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/RD7F9S_LdZDNQg_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/RD7F9S_LdZDNQg_thumbnail_tiny.webp"
+    },
+    {
+      "code": "3UNRQL",
+      "name": "Prativa Thapa",
+      "avatar": "assets/vendor/pretalx/media/avatars/3UNRQL_ePCezAA.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/3UNRQL_ePCezAA_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/3UNRQL_ePCezAA_thumbnail_tiny.webp"
+    },
+    {
+      "code": "F3LT7E",
+      "name": "Sam Colchester",
+      "avatar": "assets/vendor/pretalx/media/avatars/F3LT7E_Dy1ggWw.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/F3LT7E_Dy1ggWw_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/F3LT7E_Dy1ggWw_thumbnail_tiny.webp"
+    },
+    {
+      "code": "VNDWRP",
+      "name": "Roland Olbricht",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "FVVU38",
+      "name": "David Whittingham",
+      "avatar": "assets/vendor/pretalx/media/avatars/FVVU38_EbhMfig.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/FVVU38_EbhMfig_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/FVVU38_EbhMfig_thumbnail_tiny.webp"
+    },
+    {
+      "code": "JQEU97",
+      "name": "Jack Gilmore",
+      "avatar": "assets/vendor/pretalx/media/avatars/JQEU97_KNXqHCq.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/JQEU97_KNXqHCq_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/JQEU97_KNXqHCq_thumbnail_tiny.webp"
+    },
+    {
+      "code": "YSNJ3U",
+      "name": "Fran\u00e7ois Lacombe",
+      "avatar": "assets/vendor/pretalx/media/avatars/YSNJ3U_HAwoFLh.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/YSNJ3U_HAwoFLh_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/YSNJ3U_HAwoFLh_thumbnail_tiny.webp"
+    },
+    {
+      "code": "KJHDN9",
+      "name": "Professor Lynne Coventry",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "MYHPTV",
+      "name": "Kshitij Raj Sharma",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "TLMZF3",
+      "name": "Robert Whittaker",
+      "avatar": "assets/vendor/pretalx/media/avatars/TLMZF3_hLMeEeV.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/TLMZF3_hLMeEeV_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/TLMZF3_hLMeEeV_thumbnail_tiny.webp"
+    },
+    {
+      "code": "8LDFLC",
+      "name": "Bright Nejo",
+      "avatar": "assets/vendor/pretalx/media/avatars/8LDFLC_IntwwHH.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/8LDFLC_IntwwHH_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/8LDFLC_IntwwHH_thumbnail_tiny.webp"
+    },
+    {
+      "code": "ZM8WBJ",
+      "name": "Chris Fleming",
+      "avatar": "assets/vendor/pretalx/media/avatars/ZM8WBJ_o0IUaAA.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/ZM8WBJ_o0IUaAA_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/ZM8WBJ_o0IUaAA_thumbnail_tiny.webp"
+    },
+    {
+      "code": "CET8J9",
+      "name": "Oliver Fritz",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "ZAEHXV",
+      "name": "Marta Magnani",
+      "avatar": "assets/vendor/pretalx/media/avatars/ZAEHXV_N012qO5.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/ZAEHXV_N012qO5_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/ZAEHXV_N012qO5_thumbnail_tiny.webp"
+    },
+    {
+      "code": "TCSUHH",
+      "name": "Olivia Ragone",
+      "avatar": "assets/vendor/pretalx/media/avatars/TCSUHH_oKHEQob.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/TCSUHH_oKHEQob_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/TCSUHH_oKHEQob_thumbnail_tiny.webp"
+    },
+    {
+      "code": "9GGAN8",
+      "name": "Frederik Ramm",
+      "avatar": "assets/vendor/pretalx/media/avatars/9GGAN8_QYrNMIQ.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/9GGAN8_QYrNMIQ_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/9GGAN8_QYrNMIQ_thumbnail_tiny.webp"
+    },
+    {
+      "code": "GTRV9Y",
+      "name": "Gregory Marler",
+      "avatar": "assets/vendor/pretalx/media/avatars/GTRV9Y_6GKjLEk.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/GTRV9Y_6GKjLEk_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/GTRV9Y_6GKjLEk_thumbnail_tiny.webp"
+    },
+    {
+      "code": "JHBCPL",
+      "name": "Nicole Siggins",
+      "avatar": "assets/vendor/pretalx/media/avatars/JHBCPL_flWZ5aA.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/JHBCPL_flWZ5aA_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/JHBCPL_flWZ5aA_thumbnail_tiny.webp"
+    },
+    {
+      "code": "ZHPUPT",
+      "name": "Anna Zanchetta",
+      "avatar": "assets/vendor/pretalx/media/avatars/ZHPUPT_DIHjBCW.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/ZHPUPT_DIHjBCW_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/ZHPUPT_DIHjBCW_thumbnail_tiny.webp"
+    },
+    {
+      "code": "VVAZKB",
+      "name": "Bastian Greshake Tzovaras",
+      "avatar": "",
+      "avatar_thumbnail_default": "",
+      "avatar_thumbnail_tiny": ""
+    },
+    {
+      "code": "RLJ8BL",
+      "name": "Lynn Janzen",
+      "avatar": "assets/vendor/pretalx/media/avatars/RLJ8BL_KMlOjTF.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/RLJ8BL_KMlOjTF_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/RLJ8BL_KMlOjTF_thumbnail_tiny.webp"
+    },
+    {
+      "code": "LXDJVF",
+      "name": "Quincy Morgan",
+      "avatar": "assets/vendor/pretalx/media/avatars/LXDJVF_y3yHi2K.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/LXDJVF_y3yHi2K_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/LXDJVF_y3yHi2K_thumbnail_tiny.webp"
+    },
+    {
+      "code": "LLFYTY",
+      "name": "Gala Camacho",
+      "avatar": "assets/vendor/pretalx/media/avatars/LLFYTY_sqp0DEd.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/LLFYTY_sqp0DEd_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/LLFYTY_sqp0DEd_thumbnail_tiny.webp"
+    },
+    {
+      "code": "VAGJ8X",
+      "name": "Sophia Chen",
+      "avatar": "assets/vendor/pretalx/media/avatars/VAGJ8X_A5gk112.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/VAGJ8X_A5gk112_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/VAGJ8X_A5gk112_thumbnail_tiny.webp"
+    },
+    {
+      "code": "ZFV3XL",
+      "name": "Noon van der Silk",
+      "avatar": "assets/vendor/pretalx/media/avatars/ZFV3XL_Q2HDa8I.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/ZFV3XL_Q2HDa8I_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/ZFV3XL_Q2HDa8I_thumbnail_tiny.webp"
+    },
+    {
+      "code": "3FHA7Q",
+      "name": "Emmanuel Jolaiya",
+      "avatar": "assets/vendor/pretalx/media/avatars/3FHA7Q_qrFVDy2.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/3FHA7Q_qrFVDy2_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/3FHA7Q_qrFVDy2_thumbnail_tiny.webp"
+    },
+    {
+      "code": "KJGLVR",
+      "name": "Sebastian Felix Zappe",
+      "avatar": "assets/vendor/pretalx/media/avatars/KJGLVR_ZDYHaNJ.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/KJGLVR_ZDYHaNJ_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/KJGLVR_ZDYHaNJ_thumbnail_tiny.webp"
+    },
+    {
+      "code": "LSQ9YL",
+      "name": "Kurt Schellhase",
+      "avatar": "assets/vendor/pretalx/media/avatars/LSQ9YL_VvIOnig.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/LSQ9YL_VvIOnig_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/LSQ9YL_VvIOnig_thumbnail_tiny.webp"
+    },
+    {
+      "code": "9JGKZV",
+      "name": "Harry Wood",
+      "avatar": "assets/vendor/pretalx/media/avatars/9JGKZV_G4J5Cl4.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/9JGKZV_G4J5Cl4_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/9JGKZV_G4J5Cl4_thumbnail_tiny.webp"
+    },
+    {
+      "code": "VZMGEW",
+      "name": "Fr\u00e9d\u00e9ric Rodrigo",
+      "avatar": "assets/vendor/pretalx/media/avatars/VZMGEW_HfQobUP.webp",
+      "avatar_thumbnail_default": "assets/vendor/pretalx/media/avatars/VZMGEW_HfQobUP_thumbnail_default.webp",
+      "avatar_thumbnail_tiny": "assets/vendor/pretalx/media/avatars/VZMGEW_HfQobUP_thumbnail_tiny.webp"
+    }
+  ]
+}
