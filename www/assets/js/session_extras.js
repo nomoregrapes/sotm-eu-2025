@@ -33,6 +33,16 @@ window.session_extras = {
         "slides_url": "friday-1630-from_trails_to_cycle_routes.ppt",
         "slides_type": "pptx",
     },
+    /*
+    "SDH7HG": {
+        //Lightinig Talks 1
+        friday-1700-open_accessibility_data.pptx
+        //station mapping? no reply yet
+        friday-1700-ideamaps.pdf
+        friday-1700-help_me_help_you_help_osm.pdf
+        //Gamifying OSM: no slides, demonstrated https://osm.dundee.opendata.scot/
+    },
+    */
     //Friday: Node room
     "HEC7PR": {
         "slides_url": "friday-1300-dave-craig-sotm.pdf",
@@ -101,6 +111,16 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     //Saturday: way room
+    /*
+    "89FTLK": {
+        //Lightinig Talks 2
+        saturday-1000-planning_the_day_hikes.pptx
+        saturday-1000-last_mile_delivery.pptx
+        //ascend maps, no slides yet
+        //geofiction, no slides yet
+        saturday-1000-maplibre.pdf
+    },
+    */
     "BWRGEZ": {
         "slides_url": "saturday-1200-complementing_osm_cycling_data.pptx",
         "slides_type": "pptx",
