@@ -178,6 +178,25 @@ function buildSessionHTML(session) {
         `;
     }
 
+    //If we know the Youtube ID. Do it as a link and embed it?
+    let youtubeEmbed = "";
+    if (session.youtube) {
+        extraButtons += `
+            <a class="btn btn-danger ml-1" href="https://www.youtube.com/watch?v=${session.youtube}" target="_blank" rel="noopener">
+                <i class="fa fa-youtube-play"></i> Video
+            </a>
+        `;
+        youtubeEmbed = '<iframe\n' +
+            '  width="560"\n' +
+            '  height="315"\n' +
+            '  src="https://www.youtube.com/embed/'+ session.youtube +'"\n' +
+            '  title="YouTube video player"\n' +
+            '  frameborder="0"\n' +
+            '  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"\n' +
+            '  allowfullscreen\n' +
+            '></iframe>\n';
+    }
+
     //If the speaker attached resources in Pretalx.
     if (Array.isArray(session.attachments)) {
         session.attachments.forEach(att => {
@@ -250,6 +269,10 @@ function buildSessionHTML(session) {
                 </section>
 
                 <hr>
+
+                <section class="youtubeEmbed">
+                    ${youtubeEmbed}
+                </section>
 
                 <section class="answers">
                     <!-- You can add keywords and affiliation here if Pretalx JSON contains them -->

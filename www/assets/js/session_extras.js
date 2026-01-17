@@ -3,46 +3,64 @@ window.session_extras = {
     "WFWGSQ": {
         "slides_url": "friday-0945-welcome.pptx",
         "slides_type": "pptx",
+        "youtube": "8Jm3ZSlH6xY",
         //"youtube_url": "https://youtube.com/watch?v=123"
     },
     "D3PRYU": {
         "slides_url": "friday-1010-Open_Maps_and_cybersecurity_Today.pptm",
         "slides_type": "pptm",
+        "youtube": "hmv-2pd3nRs",
     },
     "9EKBSB": {
         "slides_url": "friday-1030-national-trust.pptx",
         "slides_type": "pptx",
+        "youtube": "F2m3qGeuztg",
+    },
+    "NA7DJA": {
+        //News From Europe [panel]
+        "youtube": "hgdeoyD8XA0",
     },
     "YG9HQC": {
         "slides_url": "friday-1300-andy_allan_our_website.pdf",
         "slides_type": "pdf",
+        "youtube": "XtCMumUX89o",
     },
     "7RREJS": {
         "slides_url": "friday-1330-ops-sotm-eu-servers-on-fire.pdf",
         "slides_type": "pdf",
+        "youtube": "qhie14YKa-w",
+    },
+    "FFGNFY": {
+        "youtube": "_UMyuRijn2I",
     },
     "ZSA3CN": {
         "slides_url": "friday-1430-Dustin_Carlino_How_did_the_mapper_cross_the_road.pptx",
         "slides_type": "pptx",
+        "youtube": "Gd6auDXlBBs",
     },
     "G38NXE": {
         "slides_url": "friday-1530-from_coast_to_coast.pptx",
         "slides_type": "pptx",
+        "youtube": "Uy_W8-8TlEI",
     },
     "XHM78K": {
         "slides_url": "friday-1630-from_trails_to_cycle_routes.ppt",
         "slides_type": "pptx",
+        "youtube": "y-jSO-A5ZvQ",
     },
-    /*
     "SDH7HG": {
         //Lightinig Talks 1
+        "slides_url": "friday-1700-lightning-talks1.pdf",
+        "slides_type": "pdf",
+        /*
         friday-1700-open_accessibility_data.pptx
         //station mapping? no reply yet
         friday-1700-ideamaps.pdf
         friday-1700-help_me_help_you_help_osm.pdf
         //Gamifying OSM: no slides, demonstrated https://osm.dundee.opendata.scot/
+        */
+        "youtube": "-SJURTzYl0k",
     },
-    */
     //Friday: Node room
     "HEC7PR": {
         "slides_url": "friday-1300-dave-craig-sotm.pdf",
