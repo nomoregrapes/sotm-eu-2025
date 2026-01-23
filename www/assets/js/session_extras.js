@@ -129,16 +129,18 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     //Saturday: way room
-    /*
     "89FTLK": {
         //Lightinig Talks 2
+        "sides_url": "saturday-1000-lightning-talks2.pdf",
+        "slides_type": "pdf",
+        /*
         saturday-1000-planning_the_day_hikes.pptx
         saturday-1000-last_mile_delivery.pptx
         //ascend maps, no slides yet
-        //geofiction, no slides yet
+        //geofiction
         saturday-1000-maplibre.pdf
+        */
     },
-    */
     "BWRGEZ": {
         "slides_url": "saturday-1200-complementing_osm_cycling_data.pptx",
         "slides_type": "pptx",
@@ -147,17 +149,17 @@ window.session_extras = {
         "slides_url": "saturday-1330-Francis.pptx",
         "slides_type": "pptx",
     },
-    /*
     "THBEEA": {
         //Lightning Talks 4
+        /*
         saturday-1600-1-2025_11_15_SOTMEU_Panoramax.pdf
         saturday-1600-2-CycleStreets_Is_the_OSM_data_model_creaking.pdf
         saturday-1600-3-Mapping_modal_filters_and_LTNs.pdf
         saturday-1600-5-linear-maps-sotm-eu.pdf
-        "slides_url": "FILENAMEGOESHERE",
+        */
+        "slides_url": "saturday-1500-lightning-talks4.pdf",
         "slides_type": "pdf",
     },
-     */
     "NH3FYD": {
         "slides_url": "saturday-1630-schroedingers_data_1.pdf",
         "slides_type": "pdf",
