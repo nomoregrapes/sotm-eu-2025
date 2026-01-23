@@ -173,8 +173,15 @@ function buildSessionHTML(session) {
     if (session.youtube_url) {
         extraButtons += `
             <a class="btn btn-danger ml-1" href="${session.youtube_url}" target="_blank" rel="noopener">
-                <i class="fa fa-youtube-play"></i> Video
+                <i class="fa fa-youtube-play"></i> YouTube
             </a>
+        `;
+    }
+    if (session.peertube) {
+        extraButtons += `
+            <a class="btn btn-info ml-1" href="${session.peertube}" target="_blank" rel="noopener">
+                <i class="fa fa-play"></i> Peertube
+            </a> 
         `;
     }
 
@@ -183,7 +190,7 @@ function buildSessionHTML(session) {
     if (session.youtube) {
         extraButtons += `
             <a class="btn btn-danger ml-1" href="https://www.youtube.com/watch?v=${session.youtube}" target="_blank" rel="noopener">
-                <i class="fa fa-youtube-play"></i> Video
+                <i class="fa fa-youtube-play"></i> Youtube
             </a>
         `;
         youtubeEmbed = '<iframe\n' +
