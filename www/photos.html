@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +22,7 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/vendor/mailchimp/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/photoswipe/dist/photoswipe.css">
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -79,627 +80,55 @@
 
         <div class="container section-title">
             <h2>Photos</h2>
-            <p>Official photos taken at the conference by Alexandra </p>
+            <p>These photos were taken at the conference by our official photographer Alexandra Sclafani (unless otherwise stated).
+                <br> <Strong>Click the images below to see them larger, and to flick through all images.</strong></p>
+            <p>Use the site contact details if details such as captions need to be corrected.
+                Other photos available on: <a href="https://commons.wikimedia.org/wiki/Category:State_of_the_Map_Europe_2025">Wikimedia Commons</a> and <a href="https://wiki.openstreetmap.org/wiki/State_of_the_Map_Europe_2025">OSM Wiki</a>.
+                <br>You can also watch the <a href="https://www.youtube.com/watch?v=RWtzPxR63NY">SotM Europe 2025 Reel</a> on YouTube.
+            </p>
 
-            <div class="row g-0">
+            <div class="row g-3" id="venue-gallery">
                 <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/welcome-banner.jpg" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/welcome-banner.jpg" alt="Welcome Banner" class="img-fluid">
+                    <div class="venue-gallery-item text-center">
+                        <a href="assets/img/photos/welcome-banner.jpg"
+                           data-pswp-width="1080"
+                           data-pswp-height="1616">
+                            <img src="assets/img/photos/welcome-banner.jpg"
+                                 alt="Welcome Banner"
+                                 class="img-fluid rounded">
                         </a>
+                        <p class="mt-2 gallery-item-caption">Welcome Banner</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/lunch.jpg" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/lunch.jpg" alt="" class="img-fluid">
+                    <div class="venue-gallery-item text-center">
+                        <a href="assets/img/photos/lunch.jpg"
+                           data-pswp-width="1616"
+                           data-pswp-height="1080">
+                            <img src="assets/img/photos/lunch.jpg"
+                                 alt="Lunch Time"
+                                 class="img-fluid rounded">
                         </a>
+                        <p class="mt-2 gallery-item-caption">Lunch Time</p>
                     </div>
                 </div>
 
 
                 <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06474.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06474.JPG" alt="" class="img-fluid">
+                    <div class="venue-gallery-item text-center">
+                        <a href="assets/img/photos/EXAMPLE.jpg"
+                           data-pswp-width="2000"
+                           data-pswp-height="1000">
+                            <img src="assets/img/thumbnails/lunch.jpg"
+                                 alt="CAPTION"
+                                 class="img-fluid rounded">
                         </a>
+                        <p class="mt-2 gallery-item-caption">CAPTION</p>
                     </div>
                 </div>
 
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06475.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06475.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06482.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06482.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06484.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06484.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06489.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06489.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06497.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06497.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06524.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06524.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06537.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06537.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06538.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06538.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06546.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06546.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06548.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06548.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06553.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06553.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06558.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06558.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06571.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06571.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06573.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06573.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06580.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06580.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06581.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06581.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06608.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06608.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06616.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06616.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06617.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06617.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06618.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06618.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06619.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06619.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06624.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06624.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06631.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06631.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06636.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06636.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06640.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06640.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06642.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06642.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06644.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06644.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06647.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06647.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06661.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06661.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06679.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06679.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06706.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06706.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06708.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06708.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06712.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06712.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06713.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06713.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06714.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06714.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06715.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06715.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06717.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06717.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06723.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06723.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06725.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06725.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06750.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06750.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06752.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06752.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06762.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06762.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06773.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06773.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06775.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06775.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06789.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06789.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06791.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06791.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06796.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06796.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06801.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06801.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06802.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06802.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06803.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06803.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06817.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06817.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06821.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06821.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06827.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06827.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06849_VSCO.jpg" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06849_VSCO.jpg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06857.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06857.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06860.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06860.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06870.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06870.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06877.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06877.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06878.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06878.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06880.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06880.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06882.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06882.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06884.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06884.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/DSC06885.JPG" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/DSC06885.JPG" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/IMG_4220.jpeg" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/IMG_4220.jpeg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/node-room.jpg" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/node-room.jpg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="venue-gallery">
-                        <a href="assets/img/photos/sticker-swap.jpg" class="glightbox" data-gall="venue-gallery">
-                            <img src="assets/img/photos/sticker-swap.jpg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
+            </div> <!-- end venue-gallery -->
 
                 </div> <!-- end row -->
             </div> <!-- end container -->
@@ -747,9 +176,60 @@
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+<script src="assets/vendor/photoswipe/dist/umd/photoswipe.umd.min.js"></script>
+<script src="assets/vendor/photoswipe/dist/umd/photoswipe-lightbox.umd.min.js"></script>
+<script type="module">
+    import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+    import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js';
+
+    const lightbox = new PhotoSwipeLightbox({
+        gallery: '#venue-gallery',
+        children: 'a',           // all <a> inside #venue-gallery
+        pswpModule: PhotoSwipe,
+        //showCaption: true,
+        //caption: (el) => el.querySelector('img')?.alt || ''
+    });
+
+    lightbox.on('uiRegister', () => {
+        lightbox.pswp.ui.registerElement({
+            name: 'custom-caption',       // unique name
+            order: 9,                     // order in the UI stack
+            isButton: false,              // not a clickable button
+            appendTo: 'root',             // attach to root container
+            html: '',                     // start empty
+            onInit: (el, pswp) => {
+                // Update caption whenever the slide changes
+                pswp.on('change', () => {
+                    const currSlide = pswp.currSlide;
+                    let captionHTML = '';
+
+                    if (currSlide && currSlide.data.element) {
+                        const hiddenCaption = currSlide.data.element.querySelector('.gallery-item-caption');
+                        if (hiddenCaption) {
+                            // Use hidden HTML caption if available
+                            captionHTML = hiddenCaption.innerHTML;
+                        } else {
+                            // Fallback: use <img> alt text
+                            const img = currSlide.data.element.querySelector('img');
+                            captionHTML = img ? img.alt : '';
+                        }
+                    }
+
+                    el.innerHTML = captionHTML || '';
+                });
+            }
+        });
+    });
+
+    lightbox.init();
+</script>
+
+
+
 
 <!-- Keep a reference to the original site's JS so any interactive behaviour remains available if present -->
 <script src="assets/js/photos.js" defer></script>
+
 
 <!-- End of stripped skeleton HTML -->
 </body>
