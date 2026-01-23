@@ -32,6 +32,7 @@ window.session_extras = {
     },
     "FFGNFY": {
         "youtube": "_UMyuRijn2I",
+        "peertube": "https://peertube.amicale.net/w/x6VwVUSc9DsQi1iqLXqPtm",
     },
     "ZSA3CN": {
         "slides_url": "friday-1430-Dustin_Carlino_How_did_the_mapper_cross_the_road.pptx",
