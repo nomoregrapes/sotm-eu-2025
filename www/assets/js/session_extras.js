@@ -84,13 +84,23 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     //Friday: Way room
+    "MRZK7M": {
+        //Goodbye oshdb
+        "youtube": "oFIiIMKpHJU",
+    },
+    "Z8GZAQ": {
+        //osm data replication
+        "youtube": "TBGnswyyzNA",
+    },
     "UGMYAX": {
         "slides_url": "friday-1300-State_of_the_Map_Scotland.pdf",
         "slides_type": "pdf",
+        "youtube": "UUIMM6X_-64",
     },
     "LTLLCB": {
         "slides_url": "friday-1330-Mapping_hydropower_schemes.pptx",
         "slides_type": "pptx",
+        "youtube": "CgBoBqwdU-0",
     },
     "NHNN3Q": {
         "slides_url": "friday-1400-state-of-germany.pdf",
