@@ -105,18 +105,29 @@ window.session_extras = {
     "NHNN3Q": {
         "slides_url": "friday-1400-state-of-germany.pdf",
         "slides_type": "pdf",
+        "youtube": "A2hwVVFrxnc",
     },
     "9NPNXT": {
         "slides_url": "friday-1430-Whats_going_on_in_America.pdf",
         "slides_type": "pdf",
+        "youtube": "CNPi82zNliE",
     },
     "MDG338": {
         "slides_url": "friday-1530-mapswipe_today_and_its_future_in_osm.pdf",
         "slides_type": "pdf",
+        "youtube": "6SCKIR10Tp8",
+    },
+    "UJX7WF": {
+        //mapping damage
+        "youtube": "yq4F5Spe2Dk",
     },
     "QUDXUS": {
         "slides_url": "friday-1630-paul_knight.pdf",
         "slides_type": "pdf",
+        "youtube": "QWOIaZutS8A",
+    },
+    "EZ8RJ3": {
+        "youtube": "tyciwFwCvtM",
     },
     //Saturday: area room
     "XCCRKE": {
@@ -140,6 +151,9 @@ window.session_extras = {
         "slides_type": "pdf",
     },
     //Saturday: way room
+    "QF3HYY": {
+        "youtube": "eICXAPgJaG8",
+    },
     "89FTLK": {
         //Lightinig Talks 2
         "sides_url": "saturday-1000-lightning-talks2.pdf",
@@ -151,14 +165,33 @@ window.session_extras = {
         //geofiction
         saturday-1000-maplibre.pdf
         */
+        "youtube": "k4-LOihdkPA",
+    },
+    "BWHZS7": {
+        "youtube": "7o1RC3KPDkE",
+    },
+    "8SFUEX": {
+        "youtube": "uLOnUVHwJJY",
     },
     "BWRGEZ": {
         "slides_url": "saturday-1200-complementing_osm_cycling_data.pptx",
         "slides_type": "pptx",
+        "youtube": "OCc-vS1UpDs",
     },
     "AT3XT9": {
         "slides_url": "saturday-1330-Francis.pptx",
         "slides_type": "pptx",
+        "youtube": "qfCVT8P0jA0",
+    },
+    "MAGQDL": {
+        "youtube": "1g8memKNVBQ",
+    },
+    "ECXGL8": {
+        "youtube": "r5zlVkhkbFQ",
+    },
+    "KLLYLY": {
+        //Lightning Talks 3
+        "youtube": "Nhzl0-SlQRw",
     },
     "THBEEA": {
         //Lightning Talks 4
@@ -170,14 +203,17 @@ window.session_extras = {
         */
         "slides_url": "saturday-1500-lightning-talks4.pdf",
         "slides_type": "pdf",
+        "youtube": "JAtNqSFr58U",
     },
     "NH3FYD": {
         "slides_url": "saturday-1630-schroedingers_data_1.pdf",
         "slides_type": "pdf",
+        "youtube": "j_CXdqr3vSI",
     },
     "DGZFXR": {
         "slides_url": "saturday-1700-Getting_notes_working_for_us.pdf",
         "slides_type": "pdf",
+        "youtube": "vnRNidqzaHU",
     },
     //Saturday: node room
     "73CHAQ": {
