@@ -151,13 +151,17 @@ async function get_session_data(code) {
 
 function buildSessionHTML(session) {
     const title = session.title || "Untitled session";
-    const abstract = session.abstract || "";
-    const description = session.description || "";
-    const speakers = session.speakers || [];
+    const abstract = (session.abstract || "").replace(/\r?\n/g, "<br>");
+    const description = (session.description || "").replace(/\r?\n/g, "<br>");
+    const speakers = session.persons || [];
     const start = session.start || "";
     const end = session.end || "";
     const room = session.room || "";
     const code = session.code;
+    const trackClass = session.track
+        .toLowerCase()
+        .replace(/\s+/g, '')        // remove spaces
+        .replace(/[^\w-]/g, '');   // remove non-class-friendly chars
 
     const pretalxResourceBase = "https://pretalx.com";
 
@@ -237,10 +241,15 @@ function buildSessionHTML(session) {
         </div>
     `).join("");
 
+    document.title = title + " [SotMEu 2025]";
     return `
     <article>
         <h3 class="talk-title">
             <div class="heading-with-buttons">
+                <div class="buttons d-flex justify-content-start ${trackClass}" id="talk-track">                    
+                    ${session.track} 
+                </div>
+                
                 <span>
                     ${title}
                     <button class="btn btn-xs btn-link" id="fav-button">
@@ -254,12 +263,6 @@ function buildSessionHTML(session) {
                 </div>
             </div>
 
-            <small class="text-muted">
-                <span class="timerange-block">
-                    ${start} – ${end}
-                </span>,
-                ${room}
-            </small>
         </h3>
 
         <div class="talk row">
@@ -268,24 +271,27 @@ function buildSessionHTML(session) {
                 <section class="abstract">
                     <p>${abstract}</p>
                 </section>
-
-                <hr>
-
-                <section class="description">
-                    ${description}
+                
+                <section class="speakers">
+                    ${speakerHTML}
                 </section>
-
-                <hr>
 
                 <section class="youtubeEmbed">
                     ${youtubeEmbed}
                 </section>
+                <small class="text-muted">
+                    This took place in the "${room}" room at ${start}, during State of the Map Europe 2025.
+                </small>
+
+                <section class="description">
+                    ${description}
+                </section>
+                
 
                 <section class="answers">
                     <!-- You can add keywords and affiliation here if Pretalx JSON contains them -->
                 </section>
 
-                ${speakerHTML}
             </div>
         </div>
     </article>

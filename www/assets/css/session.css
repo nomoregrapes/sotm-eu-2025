@@ -1,3 +1,50 @@
 .main .hero {
     min-height: auto;
 }
+
+#talk-track {
+    padding: 10px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+#talk-track.communityandvision { background-color: #f0c571; }
+#talk-track.mapprogress { background-color: #36b700; }
+#talk-track.osmbasics { background-color: #c8c8c8; }
+#talk-track.softwareandengineering { background-color: #59a89c; }
+#talk-track.cartography\&outputs { background-color: #0b81a2; }
+#talk-track.mapping\&collection { background-color: #e25759; }
+#talk-track.humanitarian { background-color: #7e4794; }
+#talk-track.notjustosm { background-color: #9d2c00; }
+#talk-track.specialsessions { background-color: #262727; }
+
+.abstract, .description, .speakers {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.speakers {
+    .pretalx-session {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .pretalx-session-info {
+        flex: 1;
+        .title {
+            text-align: left;
+        }
+    }
+
+    .avatar-wrapper img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    p {
+        color: #000;
+    }
+}
