@@ -238,9 +238,9 @@ window.session_extras = {
         "slides_url": "saturday-1400paragon.pptx",
         "slides_type": "pptx",
     },
-    "CODE": {
-        "slides_url": "FILENAMEGOESHERE",
-        "slides_type": "pdf",
+    "VC7W9C": {
+        //Map your grid (not on SotM Eu channel)
+        "youtube": "GKli1GsNgfE",
     },
     //linear-maps-sotm-eu.pdf
 };
